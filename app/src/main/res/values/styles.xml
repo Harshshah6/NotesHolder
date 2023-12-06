@@ -1,0 +1,24 @@
+<resources>
+	<style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="colorControlNormal">@color/colorControlNormal</item>
+		<item name="android:windowLightNavigationBar">true</item>
+		<item name="android:windowLightStatusBar">true</item>
+	</style>
+
+	<style name="tilBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+		<item name="boxStrokeColor">@color/mtrl_textinput_default_box_stroke_color</item>
+		<item name="boxStrokeWidth">1dp</item>
+		<item name="hintTextColor">#000000</item>
+		<item name="android:textColorHint">#9E9E9E</item>
+	</style>
+	<style name="AppTheme.FullScreen" parent="AppTheme">
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+</resources>
